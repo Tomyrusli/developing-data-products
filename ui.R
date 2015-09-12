@@ -18,7 +18,7 @@ shinyUI(
                         "Range:", 
                         min = 1950, 
                         max = 2011, 
-                        value = c(1993, 2011),
+                        value = c(1950, 1990),
                         format="####"),
                     uiOutput("evtypeControls"),
                     actionButton(inputId = "clear_all", label = "Clear selection", icon = icon("check-square")),
